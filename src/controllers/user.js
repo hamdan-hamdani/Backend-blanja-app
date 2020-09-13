@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 module.exports = {
-    registerCustomer: (req, response) => {
+    register: (req, response) => {
       const {
         roleId
       } = req.body
